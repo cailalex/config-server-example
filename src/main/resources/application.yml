@@ -1,0 +1,9 @@
+---
+spring:
+  profiles: development
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
